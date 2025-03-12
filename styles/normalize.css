@@ -1,0 +1,161 @@
+:root {
+  --primary-color: #505050;
+  --secondary-color: #262626;
+  --background-color: #b4b4b4;
+  --text-color: #333;
+  --font-primary: "Merriweather", roboto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: var(--primary-color);
+  padding: 10px 30px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  gap: 25px;
+}
+header img {
+  width: 100px;
+  height: auto;
+  margin-left: 50px;
+}
+nav {
+  background-color: #ccc4cc;
+  padding: 10px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #3480b3;
+}
+.grid {
+  padding: 10px;
+  width: 100%;
+}
+.grid h1 {
+  color: black;
+}
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 15px;
+}
+.course {
+  border-radius: 10px 10px 0 0;
+  box-shadow: 5px 0 10px;
+  width: 100em;
+}
+.course h2 {
+  background-color: #505050;
+  padding: 6px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  color: white;
+}
+.country {
+  border-radius: 10px 10px 0 0;
+  box-shadow: 5px 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+.country h2 {
+  background-color: #505050;
+  text-align: center;
+  padding: 6px;
+  border-radius: 10px 10px 0 0;
+  color: white;
+}
+.country img {
+  width: 100%;
+  height: auto;
+}
+.country-image {
+  padding: 20px;
+}
+.certificate {
+  border-radius: 10px 10px 0 0;
+  box-shadow: 5px 0 10px;
+  margin-top: 20px;
+}
+.certificate h2 {
+  background-color: #505050;
+  text-align: center;
+  padding: 6px;
+  border-radius: 10px 10px 0 0;
+  color: white;
+}
+.certificate-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+.certificate-buttons button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+footer {
+  background-color: #505050;
+  color: white;
+  padding: 30px;
+}
+footer img {
+  width: 100px;
+  height: auto;
+}
+.hidden {
+  display: none !important;
+}
+#items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid black;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.item {
+  border-radius: 10px;
+  padding: 10px 80px;
+  display: block;
+  border: 1px solid black;
+}
+.last-block {
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.footer-container {
+  width: 30%;
+  margin: 0 auto;
+}
+#lastmodified {
+  text-align: center;
+  margin-top: 5px;
+}
+.country p {
+  text-align: center;
+}

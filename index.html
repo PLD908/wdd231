@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 231 - Web Frontend Development 1</title>
+    <meta
+      name="description"
+      content="WDD 231 - Web Frontend Development 1 by Adetoke Faderin. Explore my GitHub Profile, LinkedIn, Chamber of Commerce Website"
+    />
+    <meta name="author" content="Adetoke Faderin" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/larger.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="images/tokepics.webp" alt="Whatsapp Images" />
+        <h1>Adetoke Faderin</h1>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://">Chamber</a></li>
+        <li><a href="https://">GitHub Profile</a></li>
+        <li><a href="https://linkedin.com/">LinkedIn</a></li>
+      </ul>
+    </nav>
+    <main class="grid">
+      <h1>Home</h1>
+      <section class="main">
+        <div class="course">
+          <h2>Course Work</h2>
+          <div class="course-info">
+            <p>---content goes here---</p>
+          </div>
+        </div>
+        <div class="country">
+          <h2>Abuja,Nigeria</h2>
+          <div class="country-image">
+            <img src="images/waterfall.webp" alt="google images" />
+          </div>
+          <p>Waterfall</p>
+        </div>
+      </section>
+      <div class="certificate">
+        <h2>Web and Computer Programming Certificate</h2>
+        <div class="certificate-buttons">
+          <button onclick="filterItems('all')">All</button>
+          <button onclick="filterItems('cse')">CSE</button>
+          <button onclick="filterItems('wdd')">WDD</button>
+        </div>
+        <div id="items">
+          <div class="item" data-category="cse">CSE 110</div>
+          <div class="item" data-category="wdd">WDD 130</div>
+          <div class="item" data-category="cse">CSE 111</div>
+          <div class="item" data-category="wdd">WDD 131</div>
+          <div class="item" data-category="cse">CSE 210</div>
+          <div class="item" data-category="wdd">WDD 231</div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="last-block">
+          <p>©<span id="currentyear"></span>💕Adetoke Faderin 💕Nigeria</p>
+          <img src="images/flag.webp" alt="google images" />
+        </div>
+        <p id="lastmodified"></p>
+      </div>
+    </footer>
+    <script src="./scripts/navigation.js"></script>
+    <script src="./scripts/dates.js"></script>
+  </body>
+</html>
