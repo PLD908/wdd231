@@ -3,25 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WDD 231 - Web Frontend Development 1</title>
+    <title>WDD 231 - Web Frontend Development 1 - Oluyede Divine</title>
     <meta
       name="description"
-      content="WDD 231 - Web Frontend Development 1 by Adetoke Faderin. Explore my GitHub Profile, LinkedIn, Chamber of Commerce Website"
+      content="This assignment demonstrates my prerequisite knowledge by applying HTML, CSS, and JavaScript to the design and development a course home page."
     />
     <meta name="author" content="Oluyede Divine" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/larger.css" />
+
+    <script src="./scripts/navigation.js" defer></script>
+    <script src="./scripts/dates.js" defer></script>
+    <script src="./scripts/course.js" defer></script>
   </head>
   <body>
-    <header>
+    <section class="header">
       <div class="header-container">
-        <img src="images/ceo.JPG" alt="Whatsapp Images" />
+        <img src="images/ceo.jpg" alt="Whatsapp Images" />
         <h1>Oluyede Divine</h1>
       </div>
 
@@ -30,11 +35,11 @@
         <div class="bar"></div>
         <div class="bar"></div>
     </div>
-    </header>
+    </section>
     <nav>
-      <ul>
+      <ul class="nav-menu" id="navMenu">
         <li><a href="#">Home</a></li>
-        <li><a href="https://">Chamber</a></li>
+        <li><a href="#">Chamber</a></li>
         <li><a href="https://github.com/PLD908">GitHub Profile</a></li>
         <li><a href="https://www.linkedin.com/in/oluyede-divine/">LinkedIn</a></li>
       </ul>
@@ -60,7 +65,7 @@
           <p>Waterfall</p>
         </div>
       </section>
-      <div class="certificate">
+      <section class="certificate">
         <h2>Web and Computer Programming Certificate</h2>
         <div class="filter-buttons">
           <button class="filter-btn active" id="all-btn">All</button>
@@ -75,7 +80,7 @@
         <div class="courses-grid" id="courses-grid">
             <!-- Course cards will be dynamically generated here -->
         </div>
-      </div>
+      </section>
     </main>
     <footer>
       <div class="footer-container">
@@ -86,8 +91,5 @@
         <p id="lastmodified"></p>
       </div>
     </footer>
-    <script src="./scripts/navigation.js"></script>
-    <script src="./scripts/dates.js"></script>
-    <script src="./scripts/course.js"></script>
   </body>
 </html>
