@@ -1,0 +1,124 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #222;
+    color: #f0f0f0;
+}
+
+body.dark-mode #content {
+    background-color: #222;
+}
+
+body.dark-mode header {
+    background-color: #333;
+    border-bottom-color: #444;
+}
+
+body.dark-mode nav a {
+    color: #f0f0f0;
+}
+
+body.dark-mode .button {
+    background-color: #444;
+    color: #f0f0f0;
+}
+
+body.dark-mode .menu-icon .bar {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .weather-data, 
+body.dark-mode .forecast-data {
+    color: #333;
+}
+
+body.dark-mode .card {
+    background-color: #333;
+    border-color: #444;
+}
+
+body.dark-mode footer {
+    background-color: #333;
+    border-top-color: #444;
+}
+
+body.dark-mode .footer-base {
+    border-top-color: #444;
+}
+
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6 {
+    color: #f0f0f0;
+}
+
+body.dark-mode a {
+    color: #66b3ff;
+}
+
+/* Dark mode toggle styling */
+.toggle {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.toggle + label {
+    cursor: pointer;
+    width: 40px;
+    height: 20px;
+    background: #999;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.toggle + label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.toggle:checked + label {
+    background: #666;
+}
+
+.toggle:checked + label:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.toggle + label:active:after {
+    width: 25px;
+}
+
+/* Gold and Silver Member Styling */
+.card.gold {
+    border: 2px solid #ffd700;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+.card.silver {
+    border: 2px solid #c0c0c0;
+    box-shadow: 0 0 5px rgba(192, 192, 192, 0.5);
+}
+
+body.dark-mode .card.gold {
+    border-color: #ffd700;
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+}
+
+body.dark-mode .card.silver {
+    border-color: #c0c0c0;
+    box-shadow: 0 0 8px rgba(192, 192, 192, 0.7);
+}

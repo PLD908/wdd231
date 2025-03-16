@@ -1,0 +1,82 @@
+[
+{
+    "name": "Desert Oasis Hotel",
+    "address": "123 Sahara Avenue, Timbuktu",
+    "phone": "223-555-1234",
+    "email": "info@desertoasis.com",
+    "website": "https://desertoasis.com",
+    "image": "desert-oasis.jpg",
+    "membershipLevel": 3,
+    "tagline": "Luxury in the Heart of the Desert"
+},
+{
+    "name": "Sahara Traders",
+    "address": "45 Market Street, Timbuktu",
+    "phone": "223-555-2345",
+    "email": "contact@saharatraders.com",
+    "website": "https://saharatraders.com",
+    "image": "sahara-traders.jpg",
+    "membershipLevel": 2,
+    "tagline": "Authentic Local Crafts & Goods"
+},
+{
+    "name": "Timbuktu Tech Solutions",
+    "address": "78 Innovation Way, Timbuktu",
+    "phone": "223-555-3456",
+    "email": "support@timbuktutech.com",
+    "website": "https://timbuktutech.com",
+    "image": "timbuktu-tech.jpg",
+    "membershipLevel": 3,
+    "tagline": "Bridging Ancient Wisdom with Modern Technology"
+},
+{
+    "name": "Desert Star Cafe",
+    "address": "12 Moonlight Plaza, Timbuktu",
+    "phone": "223-555-7890",
+    "email": "hello@desertstar.com",
+    "website": "https://desertstar.com",
+    "image": "desert-star.jpg",
+    "membershipLevel": 1,
+    "tagline": "Coffee Under the Stars"
+},
+{
+    "name": "Sahel Tours & Travel",
+    "address": "56 Explorer Road, Timbuktu",
+    "phone": "223-555-4567",
+    "email": "bookings@saheltours.com",
+    "website": "https://saheltours.com",
+    "image": "sahel-tours.png",
+    "membershipLevel": 2,
+    "tagline": "Discover the Magic of Mali"
+},
+{
+    "name": "Manuscript Museum",
+    "address": "34 Heritage Avenue, Timbuktu",
+    "phone": "223-555-8901",
+    "email": "visit@manuscriptmuseum.org",
+    "website": "https://manuscriptmuseum.org",
+    "image": "manuscript-museum.jpg",
+    "membershipLevel": 3,
+    "tagline": "Preserving Centuries of Knowledge"
+},
+{
+    "name": "Desert Rose Boutique",
+    "address": "89 Fashion Street, Timbuktu",
+    "phone": "223-555-5678",
+    "email": "shop@desertrose.com",
+    "website": "https://desertrose.com",
+    "image": "desert-rose.jpg",
+    "membershipLevel": 1,
+    "tagline": "Traditional Textiles with Modern Style"
+},
+{
+    "name": "Oasis Bank",
+    "address": "100 Financial Plaza, Timbuktu",
+    "phone": "223-555-6789",
+    "email": "info@oasisbank.com",
+    "website": "https://oasisbank.com",
+    "image": "oasis-bank.jpg",
+    "membershipLevel": 3,
+    "tagline": "Secure Banking in the Heart of the Sahel"
+}
+]
