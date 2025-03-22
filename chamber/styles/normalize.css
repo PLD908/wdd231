@@ -178,6 +178,126 @@ main h2 {
 
 .events-container {
     flex: 2;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.events-container h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+}
+
+.event-card {
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.event-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e74c3c;
+    color: white;
+    min-width: 80px;
+    padding: 10px;
+    text-align: center;
+}
+
+.event-date .month {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.event-date .day {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.event-details {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.event-details h3 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.event-time, .event-location {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+.event-description {
+    margin: 10px 0;
+    color: #34495e;
+    line-height: 1.5;
+}
+
+.event-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.event-button:hover {
+    background-color: #2980b9;
+}
+
+.view-all {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.view-all-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.view-all-link:hover {
+    color: #2980b9;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .event-card {
+        flex-direction: column;
+    }
+    
+    .event-date {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    
+    .event-date .month {
+        margin-right: 5px;
+    }
 }
 
 .current-weather, .weather-forecast {
