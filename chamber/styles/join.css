@@ -1,0 +1,196 @@
+.join-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.join-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Form Styles */
+.form-section {
+    background-color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-section h2 {
+    color: black !important;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: black !important;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.required {
+    color: #cc0000;
+}
+
+small {
+    display: block;
+    margin-top: 0.25rem;
+    color: #666;
+    font-size: 0.8rem;
+}
+
+.submit-btn {
+    background-color: #0066cc;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #004c99;
+}
+
+/* Membership Cards */
+.membership-cards {
+    margin-top: 2rem;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transform: translateY(20px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.card.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.open-modal {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.open-modal:hover {
+    background-color: #555;
+}
+
+/* Card Colors */
+.np-card {
+    border-top: 4px solid #6c757d !important;
+}
+
+.bronze-card {
+    border-top: 4px solid #cd7f32 !important;
+}
+
+.silver-card {
+    border-top: 4px solid #c0c0c0 !important;
+}
+
+.gold-card {
+    border-top: 4px solid #ffd700 !important;
+}
+
+/* Modals */
+.modal {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    max-width: 90%;
+    width: 500px;
+}
+
+.modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    padding: 1.5rem;
+}
+
+.close-modal {
+    background-color: #666;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.close-modal:hover {
+    background-color: #444;
+}
+
+/* Medium screens and up */
+@media screen and (min-width: 32.5em) {
+    .cards-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Large screens */
+@media screen and (min-width: 64em) {
+    .join-container {
+        flex-direction: row;
+    }
+    
+    .form-section {
+        flex: 2;
+    }
+    
+    .membership-cards {
+        flex: 1;
+        margin-top: 0;
+    }
+    
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,54 @@
+.thankyou-main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.submission-info {
+    background-color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.submission-info h2 {
+    color: black !important;
+}
+
+.info-group {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+    color: black !important;
+}
+
+.info-group:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.action-buttons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.action-button {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white !important;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #004c99;
+}
