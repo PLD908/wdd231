@@ -1,0 +1,52 @@
+{
+    "attractions": [
+      {
+        "name": "Alpine Park",
+        "address": "234 Mountain View Road, Mountain Town, MT 12345",
+        "description": "A sprawling 50-acre park featuring hiking trails, scenic viewpoints, and well-maintained picnic areas. Perfect for family outings and nature enthusiasts.",
+        "image": "./images/alpine-park.jpg"
+      },
+      {
+        "name": "Heritage Museum",
+        "address": "56 History Lane, Mountain Town, MT 12345",
+        "description": "Explore the rich cultural heritage of Mountain Town through interactive exhibits showcasing local history, mining artifacts, and indigenous culture.",
+        "image": "./images/heritage-museum.jpg"
+      },
+      {
+        "name": "River Rapids Adventure",
+        "address": "789 Cascade Avenue, Mountain Town, MT 12345",
+        "description": "Experience the thrill of whitewater rafting on our world-class rapids. Professional guides ensure a safe and exhilarating adventure for all skill levels.",
+        "image": "./images/river-rapids.jpg"
+      },
+      {
+        "name": "Artisan Market",
+        "address": "123 Craft Street, Mountain Town, MT 12345",
+        "description": "Browse unique handcrafted goods from local artisans. From pottery and jewelry to woodworking and textiles, find the perfect souvenir.",
+        "image": "./images/artisan-market.jpg"
+      },
+      {
+        "name": "Summit Brewery",
+        "address": "456 Hops Road, Mountain Town, MT 12345",
+        "description": "Award-winning craft brewery offering tours and tastings. Enjoy mountain-inspired beers made with locally sourced ingredients in a rustic taproom.",
+        "image": "./images/summit-brewery.jpg"
+      },
+      {
+        "name": "Evergreen Gardens",
+        "address": "987 Botanical Way, Mountain Town, MT 12345",
+        "description": "A meticulously maintained botanical garden featuring native plants, colorful flower displays, and tranquil walking paths perfect for relaxation.",
+        "image": "./images/evergreen-gardens.jpg"
+      },
+      {
+        "name": "Historic Downtown",
+        "address": "Main Street District, Mountain Town, MT 12345",
+        "description": "Stroll through charming streets lined with Victorian-era buildings housing boutique shops, cozy cafes, and fine dining establishments.",
+        "image": "./images/historic-downtown.jpg"
+      },
+      {
+        "name": "Sky Peak Resort",
+        "address": "1001 Summit Road, Mountain Town, MT 12345",
+        "description": "Year-round resort offering skiing in winter and mountain biking in summer. Featuring luxury accommodations, spa services, and breathtaking views.",
+        "image": "./images/sky-peak-resort.jpg"
+      }
+    ]
+  }

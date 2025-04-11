@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Timbuktu Chamber of Commerce Directory Page - Find local businesses and services in our community.">
+    <meta name="description" content="Discover the attractions and places of interest in Mountain Town. Find local businesses, outdoor activities, and cultural landmarks.">
     <meta name="author" content="Oluyede Divine">
     
     <meta property="og:title" content="Timbuktu Chamber of Commerce Directory">
@@ -11,9 +11,14 @@
     <meta property="og:image" content="https://pld908.github.io/wdd231/chamber/directory.html/images/timbuktu.jpg">
     <meta property="og:url" content="https://pld908.github.io/wdd231/chamber/directory.html">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+
     <script src="./scripts/dates.js" defer></script>
     <script src="./scripts/directory.js" defer></script>
     <script src="./scripts/navigation.js" defer></script>
+    <script src="./scripts/discover.js" defer></script>
 
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     
@@ -22,8 +27,9 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/larger.css">
-    
-    <title>Timbuktu Chamber of Commerce | Directory - Oluyede Divine</title>
+    <link rel="stylesheet" href="./styles/discover.css">
+
+    <title>Mountain Town Chamber - Discover</title>
 </head>
 <body>
     <div id="content">
@@ -53,61 +59,19 @@
                 </div>
             </nav>
         </header>
-        
-        <div class="hero">
-            <img src="./images/hero-bg.webp" alt="Timbuktu landscape" class="hero-img">
-            <div class="call-to-action">
-                <a href="#" class="button">Keynote Tickets</a>
-            </div>
-        </div>
+
         <main>
-            <h1>Home</h1>
-            <section class="top-section">
-                <div class="events-container">
-                    <h2>Events</h2>
-                    <!-- Events content will go here -->
-                </div>
-                
-                <div class="current-weather">
-                    <h2>Current Weather</h2>
-                    <div class="weather-content">
-                        <img src="./images/weather-icon.png" alt="Weather Icon" class="weather-icon">
-                        <div class="weather-data">
-                            <p class="temp">75° F</p>
-                            <p>Partly Cloudy</p>
-                            <p>High: 85°</p>
-                            <p>Low: 52°</p>
-                            <p>Humidity: 34%</p>
-                            <p>Sunrise: 7:30am</p>
-                            <p>Sunset: 9:59pm</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="weather-forecast">
-                    <h2>Weather Forecast</h2>
-                    <div class="forecast-data">
-                        <p>Today: <span>90°F</span></p>
-                        <p>Wednesday: <span>89°F</span></p>
-                        <p>Thursday: <span>68°F</span></p>
-                    </div>
-                </div>
-            </section>
+            <h1 class="page-title">Discover Mountain Town</h1>
             
-            <h2>Business Directory</h2>
-            
-            <div class="view-toggle">
-                <button id="grid-btn" class="active">Grid View</button>
-                <button id="list-btn">List View</button>
+            <div class="visit-message" id="visitMessage">
+                <!-- This will be populated with JavaScript -->
             </div>
-            
-            <section id="directory-container" class="grid">
-                <!-- Directory cards will be dynamically added here by JavaScript -->
-                <!-- Loading placeholder -->
-                <p class="loading">Loading business directory...</p>
-            </section>
+    
+            <div class="card-grid" id="cardGrid">
+                <!-- Cards will be populated from JSON data -->
+            </div>
         </main>
-        
+    
         <footer>
             <section class="footer-content">
                 <div class="chamber-info">
