@@ -106,5 +106,32 @@
         "category": "App",
         "tags": ["React", "CSS"],
         "link": "https://example.com"
+    },
+    {
+        "id": 13,
+        "title": "Music Player",
+        "description": "A custom audio player with playlists.",
+        "image": "../images/proj13.jfif",
+        "category": "App",
+        "tags": ["JavaScript", "HTML"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 14,
+        "title": "Job Board",
+        "description": "A platform for job listings and applications.",
+        "image": "../images/proj14.jfif",
+        "category": "Web",
+        "tags": ["Node.js", "CSS"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 15,
+        "title": "To-Do List",
+        "description": "A simple task manager with drag-and-drop.",
+        "image": "../images/proj15.jfif",
+        "category": "App",
+        "tags": ["JavaScript", "CSS"],
+        "link": "https://example.com"
     }
 ]
