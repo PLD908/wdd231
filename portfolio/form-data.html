@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your contact form submission details.">
+    <title>Form Submission - My Portfolio</title>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- <img src="images/logo.png" alt="Portfolio logo" width="40" height="40"> -->
+            <h1>My Portfolio</h1>
+        </div>
+        <nav aria-label="Main navigation">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-data" aria-labelledby="form-data-title">
+            <h2 id="form-data-title">Thank You!</h2>
+            <p>Your message has been received. Here’s what you submitted:</p>
+            <div id="form-output"></div>
+            <a href="contact.html" class="btn">Back to Contact</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+        <a href="attributions.html">Attributions</a>
+    </footer>
+    <script type="module" src="./scripts/form.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

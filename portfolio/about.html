@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about my journey as a web developer.">
+    <meta property="og:title" content="About - My Portfolio">
+    <meta property="og:description" content="Discover my skills and passion for web development.">
+    <meta property="og:image" content="images/hero.jpg">
+    <title>About - My Portfolio</title>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- <img src="images/logo.png" alt="Portfolio logo" width="40" height="40"> -->
+            <h1>My Portfolio</h1>
+        </div>
+        <nav aria-label="Main navigation">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active" aria-current="page">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m a web developer with a passion for creating seamless, accessible digital experiences. I started coding in 2022 and haven’t stopped learning since.</p>
+                    <p>My expertise lies in HTML, CSS, JavaScript, and responsive design, with a focus on user-centric solutions. I believe in clean code and creative problem-solving.</p>
+                </div>
+                <img src="images/hero.jpg" alt="Photo of me coding" loading="lazy" class="about-img">
+            </div>
+        </section>
+        <section class="timeline" aria-labelledby="timeline-title">
+            <h2 id="timeline-title">My Journey</h2>
+            <ul class="timeline-list">
+                <li>
+                    <h3>2022: First Steps</h3>
+                    <p>Learned HTML and CSS, built my first static website.</p>
+                </li>
+                <li>
+                    <h3>2023: JavaScript Dive</h3>
+                    <p>Mastered ES6, created dynamic apps with APIs.</p>
+                </li>
+                <li>
+                    <h3>2024: Portfolio Launch</h3>
+                    <p>Developed this site to showcase my work.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="interests" aria-labelledby="interests-title">
+            <h2 id="interests-title">Interests</h2>
+            <p>Beyond coding, I enjoy hiking, reading sci-fi novels, and experimenting with UI design trends.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+        <a href="attributions.html">Attributions</a>
+    </footer>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

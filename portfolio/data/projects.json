@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "E-Commerce Site",
+        "description": "A responsive online store with dynamic product filtering.",
+        "image": "../images/proj1.webp",
+        "category": "Web",
+        "tags": ["React", "CSS", "API"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 2,
+        "title": "Blog Platform",
+        "description": "A dynamic blog with user comments and admin dashboard.",
+        "image": "../images/proj2.jpg",
+        "category": "Web",
+        "tags": ["JavaScript", "Node.js"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 3,
+        "title": "Portfolio Site",
+        "description": "A personal portfolio showcasing creative projects.",
+        "image": "../images/proj3.jpg",
+        "category": "Web",
+        "tags": ["HTML", "CSS"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 4,
+        "title": "Task Manager",
+        "description": "A productivity app with localStorage for tasks.",
+        "image": "../images/proj4.jpg",
+        "category": "App",
+        "tags": ["JavaScript", "localStorage"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 5,
+        "title": "Weather App",
+        "description": "Real-time weather updates using a public API.",
+        "image": "../images/proj5.jpg",
+        "category": "App",
+        "tags": ["API", "JavaScript"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 6,
+        "title": "Quiz Game",
+        "description": "An interactive quiz with score tracking.",
+        "image": "../images/proj6.jpg",
+        "category": "Game",
+        "tags": ["JavaScript", "CSS"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 7,
+        "title": "Photo Gallery",
+        "description": "A responsive gallery with lightbox effects.",
+        "image": "../images/proj7.jpg",
+        "category": "Web",
+        "tags": ["CSS", "JavaScript"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 8,
+        "title": "Chat App",
+        "description": "Real-time chat with WebSocket integration.",
+        "image": "../images/proj8.jpg",
+        "category": "App",
+        "tags": ["Node.js", "WebSocket"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 9,
+        "title": "Recipe Book",
+        "description": "A searchable collection of recipes.",
+        "image": "../images/proj9.jpg",
+        "category": "Web",
+        "tags": ["React", "API"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 10,
+        "title": "Fitness Tracker",
+        "description": "Track workouts and set fitness goals.",
+        "image": "../images/proj10.jpg",
+        "category": "App",
+        "tags": ["JavaScript", "CSS"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 11,
+        "title": "News Aggregator",
+        "description": "Curated news from multiple APIs.",
+        "image": "../images/proj11.jpg",
+        "category": "Web",
+        "tags": ["API", "JavaScript"],
+        "link": "https://example.com"
+    },
+    {
+        "id": 12,
+        "title": "Event Planner",
+        "description": "Organize events with a calendar view.",
+        "image": "../images/proj12.jpg",
+        "category": "App",
+        "tags": ["React", "CSS"],
+        "link": "https://example.com"
+    }
+]

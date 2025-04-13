@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact me for web development projects or collaboration.">
+    <meta property="og:title" content="Contact - My Portfolio">
+    <meta property="og:description" content="Get in touch for creative web solutions.">
+    <meta property="og:image" content="images/hero.jpg">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- <img src="images/logo.png" alt="Portfolio logo" width="40" height="40"> -->
+            <h1>My Portfolio</h1>
+        </div>
+        <nav aria-label="Main navigation">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Get in Touch</h2>
+            <div class="contact-content">
+                <form action="form-data.html" method="GET" id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Connect With Me</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/oluyede-divine/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/PLD908" target="_blank">GitHub</a></li>
+                        <li><a href="mailto:oluyededivine@email.com">Email</a></li>
+                    </ul>
+                    <!-- <img src="images/map.jpg" alt="Map of my location" loading="lazy" class="contact-map"> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+        <a href="attributions.html">Attributions</a>
+    </footer>
+    <script type="module" src="./scripts/form.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

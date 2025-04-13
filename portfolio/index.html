@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore my web development portfolio with innovative projects.">
+    <meta property="og:title" content="My Portfolio">
+    <meta property="og:description" content="Discover creative web projects built with passion.">
+    <meta property="og:image" content="images/hero.jpg">
+    <title>Home - My Portfolio</title>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- <img src="images/logo.png" alt="Portfolio logo" width="40" height="40"> -->
+            <h1>My Portfolio</h1>
+        </div>
+        <nav aria-label="Main navigation">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h2 id="hero-title">Crafting Digital Experiences</h2>
+                <p>Hi, I'm a web developer building responsive, user-friendly projects with HTML, CSS, and JavaScript.</p>
+                <a href="#project-list" class="hero-cta">Explore My Work</a>
+            </div>
+            <img src="./images/hero.jpg" alt="Hero image of coding workspace" loading="lazy" class="hero-img">
+        </section>
+        <section class="featured" aria-labelledby="featured-title">
+            <h2 id="featured-title">Featured Project</h2>
+            <div class="featured-content">
+                <img src="./images/proj1.webp" alt="Featured project screenshot" loading="lazy">
+                <div>
+                    <h3>E-Commerce Site</h3>
+                    <p>A responsive online store with dynamic product filtering and secure checkout.</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+        <section class="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">All Projects</h2>
+            <div class="project-filters">
+                <button data-filter="all" class="filter-btn active">All</button>
+                <button data-filter="Web" class="filter-btn">Web</button>
+                <button data-filter="App" class="filter-btn">App</button>
+                <button data-filter="Game" class="filter-btn">Game</button>
+            </div>
+            <div id="project-list" class="project-grid"></div>
+        </section>
+        <section class="skills" aria-labelledby="skills-title">
+            <h2 id="skills-title">My Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Responsive Design</li>
+                <li>Accessibility</li>
+                <li>Git & GitHub</li>
+                <li>APIs & JSON</li>
+            </ul>
+        </section>
+        <section class="cta" aria-labelledby="cta-title">
+            <h2 id="cta-title">Let’s Build Something</h2>
+            <p>Have a project idea? Reach out to collaborate!</p>
+            <a href="contact.html" class="btn">Get in Touch</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+        <a href="attributions.html">Attributions</a>
+    </footer>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
